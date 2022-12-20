@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Challenge Google Lens VS MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <h3 class="btn btn-info heading">This Is A Challenge! Who Will Win? 
+          <hr>
+          <center>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+              Google Lens or MobileNet
+              <br>
+                <div class="btn heading_div2">
+                Did you know that MobileNet has over 1.3 million images already prepared?
+                <br>
+                And Google Lens has over a BILILION images already prepared!?
+                </div>
+              </div>
+            </h3>
+            <div>
+               <img src="https://i.postimg.cc/HkqsW94L/google-lens.png" height="150px" width="150px">
+               </div>
+              <h1>VERSUS</h1>
+              <img src="https://i.postimg.cc/xCT8JyqV/Mountain-creative-photo-logo-Made-with-Poster-My-Wall.png" height="450px" width="450px">
+            </div>
+          </center>
+          <body> 
+            <center> 
+          <div class=" btn btn-success div-1 col-xs-12">
+      <li class="col-sm-4 col-xs-12">
+        <img src="Airpods.jpg" height="300px" width="300px">
+      </li>
+      <h5 class="col-sm-4 col-xs-12">Output on <b>Google Lens</b>=
+        <span>Airpods:95%</span>  
+      </h5>
+      <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b>=
+        <span>mouse, computer mouse 0%</span>  
+      </h5>
+    
+      <div class="div_2">
+
+        <hr>
+        <h4>Clear win to GoogleLens 1-0</h4>
+        <h3>Actual: TRUST wireless earphones</h3>
+      </div>
+          </div>
+          <br>
+      <div class="btn btn-success div-2 col-xs-12" >
+        <li class="col-sm-4 col-xs-12">
+          <img src="Ball.jpg" height="300px" width="300px">
+        </li>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>Google Lens</b> =
+          <span>Sphere Poetry:35%:</span>  
+        </h5>
+        <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> =
+          <span>pick, plectrum, plecton???0%</span>  
+        </h5>
+      
+        <div class="div_2">
+
+          <hr>
+          <h4>Clear win to GoogleLens 2-0, What was MobileNet thinking?</h4> 
+          <h3>Actual: Bouncy Ball</h3>
+      </div>
+      </div>
+    <br>
+    <div class="btn btn-success div-2 col-xs-12">
+      <li class="col-sm-4 col-xs-12">
+        <img src="Book.jpg" height="300px" width="300px">
+      </li>
+      <h5 class="col-sm-4 col-xs-12">Output on <b>Google Lens</b> =
+        <span>Diary of a wimpy kid:100%</span>  
+      </h5>
+      <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> =
+        <span>Lighter, light, lighter fuse, book 50%??</span>  
+      </h5>
+    
+      <div class="div_2">
+        <hr>
+        <h4>Ok for the last one on MobileNet it showed book so? 2-1?</h4> 
+        <h3>Actual: Diary Of A Wimpy Kid</h3>
+    </div>
+    </div>
+  <br>  
+    <div class=" btn btn-success div-2 col-xs-12" >
+    <li class="col-sm-4 col-xs-12">
+      <img src="Brick.jpg" height="300px" width="300px">
+    </li>
+    <h5 class="col-sm-4 col-xs-12">Output on <b>Google Lens</b> =
+      <span>Lego Brick Red:100%</span>  
+    </h5>
+    <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> =
+      <span>handkercheif, hanky, hankie, hankey0%</span>  
+    </h5>
+  
+    <div class="div_2">
+      <hr>
+      <h4>What!? It is clearly a lego brick 3-1 to GoogleLens</h4> 
+      <h3>Actual: Lego Brick Red</h3>
+  </div>
+  </div>
+<br>
+<div class="btn btn-success div-2 col-xs-12" >
+  <li class="col-sm-4 col-xs-12">
+    <img src="Car.jpg" height="300px" width="300px">
+  </li>
+  <h5 class="col-sm-4 col-xs-12">Output on <b>Google Lens</b> =
+    <span>Zuru Max Mystery Builds Egg Vehicle:100%</span>  
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> =
+    <span>racer, racing car, race car 100%</span>  
+  </h5>
+
+  <div class="div_2">
+    <hr>
+    <h4>Both are really accurate 4-2</h4> 
+    <h3>Actual: Zuru Max Myster Builds Egg Vehicle</h3>
+</div>
+</div>
+<br>
+<div class="btn btn-success div-2 col-xs-12">
+  <li class="col-sm-4 col-xs-12">
+    <img src="Clock.jpg" height="300px" width="300px">
+  </li>
+  <h5 class="col-sm-4 col-xs-12">Output on <b>Google Lens</b> =
+    <span>Ikea Dekad Alarm Clock:100%</span>  
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> =
+    <span>Analog Clock, stopwatch, stop watch 100%</span>  
+  </h5>
+
+  <div class="div_2">
+    <hr>
+    <h4>Both are accurate 5-3</h4> 
+    <h3>Actual: Ikea Dekad Alarm Clock</h3>
+</div>
+</div>
+<br>
+<div class="btn btn-success div-2 col-xs-12" >
+  <li class="col-sm-4 col-xs-12">
+    <img src="Die.jpg" height="300px" width="300px">
+  </li>
+  <h5 class="col-sm-4 col-xs-12">Output on <b>Google Lens</b> =
+    <span> Metalic Blue Die:75%:</span>  
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> =
+    <span>Pick, Plectrum, plecton???0%</span>  
+  </h5>
+
+  <div class="div_2">
+
+    <hr>
+    <h4>Clear win to GoogleLens 6-3</h4> 
+    <h3>Actual: Normal Blue Dice</h3>
+</div>
+</div>
+<br>
+<div class="btn btn-success div-2 col-xs-12" >
+  <li class="col-sm-4 col-xs-12">
+    <img src="Flowers.jpg" height="300px" width="300px">
+  </li>
+  <h5 class="col-sm-4 col-xs-12">Output on <b>Google Lens</b> =
+    <span>DIY Paper Flowers:45% </span>  
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> =
+    <span>Flowers 100%</span>  
+  </h5>
+
+  <div class="div_2">
+    <hr>
+    <h4>I would say win to MobileNet! 6-4</h4> 
+    <h3>Actual: Artifcial Plastic Flowers</h3>
+</div>
+</div>
+<br>
+<div class="btn btn-success div-2 col-xs-12" >
+  <li class="col-sm-4 col-xs-12">
+    <img src="NoteBook.jpg" height="300px" width="300px">
+  </li>
+  <h5 class="col-sm-4 col-xs-12">Output on <b>Google Lens</b> =
+    <span>Plastic Binders:0% </span>  
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> =
+    <span>wallet, notecase, pocketbook 100%</span>  
+  </h5>
+
+  <div class="div_2">
+  
+    <hr>
+    <h4>Clear win to MobileNet 6-5</h4> 
+    <h3>Actual: Notebook</h3>
+</div>
+</div>
+<br>
+<div class="btn btn-success div-2 col-xs-12" >
+  <li class="col-sm-4 col-xs-12">
+    <img src="Perfume.jpg" height="300px" width="300px">
+  </li>
+  <h5 class="col-sm-4 col-xs-12">Output on <b>Google Lens</b> =
+    <span>10ml mini Perfume:95% </span>  
+  </h5>
+  <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> =
+    <span>bottle of spray 100%</span>  
+  </h5>
+
+  <div class="div_2">
+   
+    <hr>
+    <h4>Both were close, win to both 7-6</h4> 
+    <h3>Actual: 30ml Perfume</h3>
+</div>
+</div>
+<br>
+<div class="btn btn-warning div-2 col-xs-12" >
+  <li class="col-sm-4 col-xs-12">
+  </li>
+  <h5 class="col-sm-4 col-xs-12">As we can see<br>Google Lens And MobileNet <span>
+    Are basically the same <br>so I would say personnaly GoogleLens is better because a BILLION is better than 1.3 MILLLION<br>
+      And because GoogleLens beat MobileNet by 1 point ('_') :)
+      __________________________________________________________________________<br>__________________________________________________________________________<br>__________________________________________________________________________<br>__________________________________________________________________________<br>__________________________________________________________________________<br>__________________________________________________________________________<br>
+  </span>
+  
+<br>
+  </center>
+    </center></body>
+      
+      <div class="copy_right_footer">
+           Developed By - Kevin Biju Varghese
+      </div>
+</body>

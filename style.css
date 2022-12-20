@@ -1,0 +1,32 @@
+body{
+    background-color: gainsboro
+}
+.copy_right_footer {
+    position: fixed;
+    color: rgb(0, 0, 0) ;
+    bottom: 0;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    line-height: 3;
+    text-align: center;
+   }
+   .heading_div
+   {
+     float: none;
+     background: white ; 
+     padding: 10px;
+     border-radius: 20px; 
+     color: black;
+     box-shadow:5px 5px 5px rgb(73, 73, 73);
+   }
+   .heading_div2
+   {
+     font-size: 18px ;
+   }
+   .heading
+   {
+     font-size: 23px;
+     width: 100%;
+     margin: 0px;
+     box-shadow:5px 5px 5px rgb(73, 73, 73);
+   }
